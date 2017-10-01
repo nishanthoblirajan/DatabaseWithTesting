@@ -25,7 +25,7 @@ public class DbHelperProvider extends ContentProvider {
     protected static final int DATABASE_VERSION = 1;
 
     // --------------- URIS --------------------
-    public static final String AUTHORITY = "com.zaptrapp.sqlandcontentprovider.provider";
+//    public static final String AUTHORITY = "com.zaptrapp.sqlandcontentprovider.provider";
     public static final Uri AMOUNTDATABASE_URI = Uri.parse("content://com.zaptrapp.sqlandcontentprovider.provider/AmountDatabase");
     
     // -------------- AMOUNTDATABASE DEFINITIONS ------------
